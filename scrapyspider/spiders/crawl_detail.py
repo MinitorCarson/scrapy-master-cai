@@ -38,7 +38,7 @@ class crawl_detail(Spider):    # 爬工作详情
         #self.start_urls.append('https://xiaoyuan.zhaopin.com/job/CC000131952J90000087000')
 
         # 读取对应路径（里面存了所有url），并把全部url放到start_urls里面去供解析
-        # links = open('D:/za/fuwuwaibao/git/scrapy-tutorial-master/scrapyspider/myurls')
+        # links = open('D:/za/fuwuwaibao/git/scrapy-tutorial-main/scrapyspider/myurls')
         # for line in links:
         #     # 一定要去掉换行符，如果有换行符则无法访问网址，真他妈坑爹
         #     line = line[:-1]
